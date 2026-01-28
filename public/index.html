@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bibliotec List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Bibliotec List 📚</h1>
+    <p class="subtitulo">
+      Aqui você organiza sua lista de livros <br> que já leu ou vai ler.
+    </p>
+  </header>
+
+  <main>
+    <!-- Formulário de adicionar livro -->
+    <form id="form-livro">
+      <input type="text" id="titulo" placeholder="Título do livro" required>
+      <input type="text" id="autor" placeholder="Autor (opcional)">
+      <button type="submit" class="btn-add">Adicionar</button>
+    </form>
+
+    <!-- Campo de busca -->
+    <div id="busca-container">
+      <input type="text" id="buscar-titulo" placeholder="Buscar livro e lojas">
+      <button id="btn-buscar" class="btn-buscar">Buscar</button>
+    </div>
+
+    <ul id="lista-livros"></ul>
+  </main>
+
+  <footer>
+    <p>© 2026 My Bibliotec List</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

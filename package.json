@@ -1,0 +1,13 @@
+{
+  "name": "sqlite-sequelize-crud",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.37.0",
+    "sqlite3": "^5.1.6"
+  }
+}
