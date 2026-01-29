@@ -12,6 +12,14 @@ O projeto utiliza **HTML, CSS e JavaScript** para a interface e faz requisiçõe
 
 ---
 
+## Projeto Online
+
+Você pode acessar o projeto online clicando no link abaixo:  
+
+[🔗 Acessar My Bibliotec List](https://mini-projeto-m3-meu-site-6kb5.vercel.app/)
+
+---
+
 ## Funcionalidades
 
 1. **Listar livros:**  
